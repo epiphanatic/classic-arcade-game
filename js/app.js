@@ -1,10 +1,6 @@
-// Create the game constructor to store the game variables
+// Create the game constructor for game prototypes functions
 const Game = function() {
-    // this.gameOver = false;
-    // this.gameWin = false;
-    // if (this.gameOver === true) {
-    //     this.alertGameOver();
-    // }
+    // ..
 };
 
 // Next two functions visually update player lives and score

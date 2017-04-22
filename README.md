@@ -1,6 +1,20 @@
-frontend-nanodegree-arcade-game
-===============================
+#classic-arcade-game
+A recreation of the classic arcade game Frogger using JavaScript and HTML5 canvas
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+# Dependencies
+There are no dependencies required to run this program. You just need a browser (preferably one that is up-to-date).
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+# Starting the app on your local machine
+1) Clone this repository or download the zip file.
+2) Open index.html in a browser.
+
+#Playing the game
+The idea is to get the player to the water before getting hit by a bug.
+
+Reaching the water will result in the player getting a point. The player needs 5 points to win.
+
+Getting hit by a bug will result in the player losing a life. The player has 5 lives.
+
+The only commands allowed are up, down, left, and right on your keyboard. Doing so will move the player in that direction one square on the screen.
+
+Once you have either won or lost the game a dialog will appear and allow you to restart the game.

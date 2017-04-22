@@ -1,0 +1,48 @@
+@font-face {
+    font-family: marioFont;
+    src: url(../fonts/super-mario-bros.ttf);
+    font-weight: bold;
+}
+
+* {
+    font-family: marioFont;
+    src: url(../fonts/super-mario-bros.ttf);
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+    background-image: url("../images/barley-field.png");
+    background-size: cover;
+}
+
+
+.lost p {
+    font-size: 72px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow); /* Standard syntax */
+}
+
+.lost img {
+    max-width: 100%;
+}
+
+.won p {
+    font-size: 72px;
+    background: green; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(green, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(green, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(green, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(green, yellow); /* Standard syntax */
+}
+
+.won img {
+    max-width: 100%;
+}
+
+.hide-me {
+    display: none;
+}

@@ -1,4 +1,4 @@
-#classic-arcade-game
+# classic-arcade-game
 A recreation of the classic arcade game Frogger using JavaScript and HTML5 canvas
 
 # Dependencies

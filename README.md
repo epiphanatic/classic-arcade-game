@@ -8,7 +8,7 @@ There are no dependencies required to run this program. You just need a browser 
 1) Clone this repository or download the zip file.
 2) Open index.html in a browser.
 
-#Playing the game
+# Playing the game
 The idea is to get the player to the water before getting hit by a bug.
 
 Reaching the water will result in the player getting a point. The player needs 5 points to win.
